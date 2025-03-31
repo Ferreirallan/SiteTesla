@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+html, body{
+    height: 100%;
+}
+
+.center .menu{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.center .logo{
+    max-width: 110px;
+
+}
+
+section.main{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(images/teslabg.jpg);
+    background-position: center;
+    background-size: cover;  /* Para cobrir toda a minha tela*/
+}
+
+header{
+    display: flex;
+}
+
+.logo img{
+    width: 130px;
+}
