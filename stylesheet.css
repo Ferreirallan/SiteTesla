@@ -31,8 +31,25 @@ section.main{
 
 header{
     display: flex;
+    justify-content: space-around; /* Distribui de forma igual*/
+}
+
+.logo{
+    position: relative;
+    top: -10px;
 }
 
 .logo img{
     width: 130px;
+}
+
+.menu{
+    margin-top: 50px;
+}
+
+.menu a{
+    display: inline-block;
+    margin: 0 10px;
+    color: black;
+    text-decoration: none;
 }
