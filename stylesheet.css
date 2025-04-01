@@ -11,14 +11,13 @@ html, body{
 }
 
 .center .menu{
-    max-width: 1100px;
+    max-width: 1280px;  /* Espaçamento*/
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 2%;  /* Interface*/
 }
 
 .center .logo{
     max-width: 110px;
-
 }
 
 section.main{
@@ -40,16 +39,56 @@ header{
 }
 
 .logo img{
-    width: 130px;
-}
-
-.menu{
-    margin: 15px;
+    width: 120px;
+    margin-left: 37px;
 }
 
 .menu a{
     display: inline-block;
     margin: 0 10px;
+    margin-top: 20px;
     color: black;
+    text-decoration: none;
+    transition: 0.2s;
+    padding: 3px 5px;
+}
+
+.menu a:hover{
+    background-color: rgba(20, 20, 20, 0.11);
+    border-radius: 5px;
+}
+
+.title{
+    text-align: center;
+}
+
+.title h2{
+    color: black;
+    font-size: 45px;
+    letter-spacing: 1.2px; /* Espaçamento entre as letras*/
+}
+
+.title p{
+    color: white;
+    margin-top: 10px;
+}
+
+.title p a{
+    color: white;
+}
+
+.btn{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.btn a {
+    display: inline-block;
+    padding: 8px 60px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
     text-decoration: none;
 }
