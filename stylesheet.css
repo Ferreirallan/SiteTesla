@@ -36,6 +36,8 @@ header{
 .logo{
     position: relative;
     top: -10px;
+    padding-right: 20px;
+   
 }
 
 .logo img{
@@ -45,12 +47,21 @@ header{
 
 .menu a{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 13px;
     margin-top: 20px;
     color: white;
     text-decoration: none;
     transition: 0.2s;
     padding: 3px 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.menutwo a{
+    display: inline-block;
+    margin: 0 10px;
+    margin-top: 20px;
+    transition: 0.2s;
 }
 
 .menu a:hover{
