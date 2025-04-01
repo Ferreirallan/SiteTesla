@@ -47,7 +47,7 @@ header{
     display: inline-block;
     margin: 0 10px;
     margin-top: 20px;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: 0.2s;
     padding: 3px 5px;
@@ -63,9 +63,10 @@ header{
 }
 
 .title h2{
-    color: black;
-    font-size: 45px;
+    color: white;
+    font-size: 70px;
     letter-spacing: 1.2px; /* Espaçamento entre as letras*/
+    padding-top: 5px;
 }
 
 .title p{
@@ -91,4 +92,23 @@ header{
     color: white;
     border-radius: 15px;
     text-decoration: none;
+}
+
+section.quite{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(images/teslabg2.jpg);
+    background-position: center;
+    background-size: cover;  /* Para cobrir toda a minha tela*/
+}
+
+.newt h2{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    padding-top: 100px;
+}
+
+.newt{
+    text-align: center;
 }
