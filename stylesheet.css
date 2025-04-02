@@ -123,3 +123,18 @@ section.quite{
 .newt{
     text-align: center;
 }
+
+section.modelx{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(images/teslabg3);
+    background-position: center;
+    background-size: cover;
+}
+
+.mx h2{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 1.2px;
+    pa
+}
