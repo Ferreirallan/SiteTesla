@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Zilla Slab', sans-serif;
     
 }
 
@@ -54,7 +54,7 @@ header{
     transition: 0.2s;
     padding: 3px 5px;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bold; /* Deixar em negrito*/
 }
 
 .menutwo a{
@@ -87,6 +87,7 @@ header{
 
 .title p a{
     color: white;
+    font-weight: bold;
 }
 
 .btn{
@@ -113,6 +114,11 @@ section.quite{
     background-size: cover;  /* Para cobrir toda a minha tela*/
 }
 
+.newt{
+    text-align: center;
+}
+
+
 .newt h2{
     color: white;
     font-size: 50px;
@@ -120,9 +126,12 @@ section.quite{
     padding-top: 100px;
 }
 
-.newt{
-    text-align: center;
+.newt p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
 }
+
 
 section.modelx{
     width: 100%;
@@ -132,9 +141,45 @@ section.modelx{
     background-size: cover;
 }
 
+.mx{
+    text-align: center;
+}
+
+
 .mx h2{
     color: white;
-    font-size: 50px;
+    font-size: 55px;
     letter-spacing: 1.2px;
-    pa
+    padding-top: 100px;
+}
+
+.mx p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.models{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(images/teslabg4.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ms{
+    text-align: center;
+}
+
+.ms h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 100px;
+}
+
+.ms{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
 }
