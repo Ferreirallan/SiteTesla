@@ -90,20 +90,35 @@ header{
     font-weight: bold;
 }
 
-.btn{
+.btnm3{
     margin-top: 110px;
     display: flex;
     justify-content: center;
 }
 
-.btn a {
+.btnm3 a {
     display: inline-block;
     padding: 8px 60px;
     margin: 0 15px;
     background-color: #333;
     color: white;
-    border-radius: 15px;
     text-decoration: none;
+}
+
+.btnmy{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnmy a {
+    display: inline-block;
+    padding: 8px 60px;
+    margin: o 15px;
+    background-color:#333 ;
+    color: white;
+    text-decoration: none;
+    
 }
 
 section.quite{
@@ -178,8 +193,58 @@ section.modelx{
     padding-top: 100px;
 }
 
-.ms{
+.ms p{
     color: white;
     font-size: 25px;
+    font-weight: bold;
+}
+
+
+.solar{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(images/bg5.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.sp{
+    text-align: center;
+}
+
+.sp h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.sp p{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.roof{
+    width: 100%;
+    min-height: 100%;
+    background-image: url(images/bgtesla6);
+    background-size: cover;
+    background-position: center;
+}
+
+.sr{
+    text-align: center;
+}
+
+.sr h2{
+    color: white;
+    font-size: 50px;
+    padding-top: 100px;
+}
+
+.sr p{
+    font-size: 25px;
+    color: white;
     font-weight: bold;
 }
