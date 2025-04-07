@@ -98,11 +98,12 @@ header{
 
 .btnm3 a {
     display: inline-block;
-    padding: 8px 60px;
+    padding: 8px 80px;
     margin: 0 15px;
     background-color: #333;
     color: white;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .btnmy{
@@ -113,12 +114,13 @@ header{
 
 .btnmy a {
     display: inline-block;
-    padding: 8px 60px;
-    margin: o 15px;
+    padding: 8px 80px;
+    margin: 0 15px;
     background-color:#333 ;
     color: white;
     text-decoration: none;
-    
+    border-radius: 5px;
+
 }
 
 section.quite{
