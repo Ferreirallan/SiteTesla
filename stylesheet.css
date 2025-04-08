@@ -176,7 +176,7 @@ section.modelx{
 
 .btnx{
     margin-top: 690px;
-    display: flex;
+    display: flex; /* Organiza e alinha elementos com mais controle e facilidade*/
     justify-content: center;
 }
 
@@ -189,6 +189,7 @@ section.modelx{
     text-decoration: none;
     border-radius: 5px;
 }
+
 
 .models{
     width: 100%;
@@ -215,6 +216,21 @@ section.modelx{
     font-weight: bold;
 }
 
+.btns{
+    margin-top: 690px;
+    display: flex; 
+    justify-content: center;
+}
+
+.btns a {
+    display: inline-block;
+    padding: 11px 85px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
 .solar{
     width: 100%;
