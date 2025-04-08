@@ -106,22 +106,6 @@ header{
     border-radius: 5px;
 }
 
-.btnmy{
-    margin-top: 110px;
-    display: flex;
-    justify-content: center;
-}
-
-.btnmy a {
-    display: inline-block;
-    padding: 8px 80px;
-    margin: 0 15px;
-    background-color:#333 ;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-
-}
 
 section.quite{
     width: 100%;
@@ -134,7 +118,6 @@ section.quite{
 .newt{
     text-align: center;
 }
-
 
 .newt h2{
     color: white;
@@ -149,6 +132,21 @@ section.quite{
     font-size: 25px;
 }
 
+.btnmy{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnmy a {
+    display: inline-block;
+    padding: 8px 80px;
+    margin: 0 15px;
+    background-color:#333 ;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
 section.modelx{
     width: 100%;
@@ -174,6 +172,22 @@ section.modelx{
     color: white;
     font-weight: bold;
     font-size: 25px;
+}
+
+.btnx{
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnx a {
+    display: inline-block;
+    padding: 8px 80px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
 .models{
