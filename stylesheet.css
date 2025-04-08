@@ -268,10 +268,11 @@ section.modelx{
 footer{
     text-align: center;
     font-size: 12px;
-    padding-top: 30px;
-    color: rgb(175, 170, 170);
+    padding-top: 40px;
+    color:rgba(0, 0, 0, 0.685)
 }
 .rodape{
     padding-top: 50px;
     padding-bottom: 80px;
+    word-spacing: 5px;
 }
