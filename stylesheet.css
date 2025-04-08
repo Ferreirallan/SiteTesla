@@ -264,3 +264,14 @@ section.modelx{
     color: white;
     font-weight: bold;
 }
+ 
+footer{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 30px;
+    color: rgb(175, 170, 170);
+}
+.rodape{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
