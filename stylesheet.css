@@ -268,9 +268,18 @@ section.modelx{
 footer{
     text-align: center;
     font-size: 12px;
-    padding-top: 40px;
-    color:rgba(0, 0, 0, 0.685)
+    padding-top: 50px;
+    color:#5c5e62;
+    max-width: 610px; /* Limita a largura para que o texto não fique esticado */
+    margin: 0 auto;   /* Centraliza horizontalmente */
+    line-height: 1.6; /* Espaçamento entre linhas para melhorar a leitura */
+   
 }
+
+footer a{
+    color: #2b2c2e;
+}
+
 .rodape{
     padding-top: 50px;
     padding-bottom: 80px;
