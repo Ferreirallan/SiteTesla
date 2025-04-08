@@ -91,14 +91,14 @@ header{
 }
 
 .btnm3{
-    margin-top: 110px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
 
 .btnm3 a {
     display: inline-block;
-    padding: 8px 80px;
+    padding: 11px 85px;
     margin: 0 15px;
     background-color: #333;
     color: white;
@@ -133,14 +133,14 @@ section.quite{
 }
 
 .btnmy{
-    margin-top: 110px;
+    margin-top: 690px;
     display: flex;
     justify-content: center;
 }
 
 .btnmy a {
     display: inline-block;
-    padding: 8px 80px;
+    padding: 11px 85px;
     margin: 0 15px;
     background-color:#333 ;
     color: white;
@@ -175,14 +175,14 @@ section.modelx{
 }
 
 .btnx{
-    margin-top: 110px;
+    margin-top: 690px;
     display: flex;
     justify-content: center;
 }
 
 .btnx a {
     display: inline-block;
-    padding: 8px 80px;
+    padding: 11px 85px;
     margin: 0 15px;
     background-color: #333;
     color: white;
