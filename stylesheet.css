@@ -64,6 +64,11 @@ header{
     transition: 0.2s;
 }
 
+.menutwo a:hover{
+    background-color: rgba(20, 20, 20, 0.11);
+    border-radius: 5px;
+}
+
 .menu a:hover{
     background-color: rgba(20, 20, 20, 0.11);
     border-radius: 5px;
@@ -104,6 +109,8 @@ header{
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 
@@ -146,6 +153,8 @@ section.quite{
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 section.modelx{
@@ -188,6 +197,8 @@ section.modelx{
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 
@@ -230,7 +241,10 @@ section.modelx{
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    font-size: 13px;
+    font-weight: bolder;
 }
+
 
 .solar{
     width: 100%;
@@ -238,6 +252,24 @@ section.modelx{
     background-image: url(images/bg5.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.btnsol{
+    margin-top: 690px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnsol a{
+    display: inline-block;
+    padding: 15px 85px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 .sp{
@@ -255,6 +287,24 @@ section.modelx{
     font-size: 23px;
     font-weight: bold;
     text-decoration: underline;
+}
+
+.btnroof{
+    margin-top: 690px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnroof a{
+    display: inline-block;
+    padding: 15px 85px;
+    margin: 0 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: bolder;
 }
 
 .roof{
