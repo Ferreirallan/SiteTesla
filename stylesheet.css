@@ -23,7 +23,7 @@ html, body{
 section.main{
     width: 100%;
     min-height: 100%;
-    background-image: url(images/teslabg.jpg);
+    background-image: url(images/azul.jpg);
     background-position: center;
     background-size: cover;  /* Para cobrir toda a minha tela*/
 }
@@ -75,7 +75,7 @@ header{
 }
 
 .title{
-    text-align: center;
+    text-align: left;
 }
 
 .title h2{
